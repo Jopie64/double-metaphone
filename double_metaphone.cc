@@ -11,6 +11,8 @@
 
 const unsigned int max_length = 32;
 
+using namespace std;
+
 void MakeUpper(string &s) {
   for (unsigned int i = 0; i < s.length(); i++) {
     s[i] = toupper(s[i]);
